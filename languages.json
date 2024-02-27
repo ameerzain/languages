@@ -1,4 +1,4 @@
-LANGUAGES = [
+[
     {
        "name":"Afrikaans",
        "code":"af"
