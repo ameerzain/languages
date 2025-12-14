@@ -55,24 +55,37 @@ This dataset can be used in:
 
 ## 🛠️ How to Use
 
-### JavaScript / TypeScript
+## 🌐 Public API / Raw JSON Access
+
+This repository can be used as a **public read-only API** by accessing the raw JSON file hosted on GitHub.
+
+### 🔗 Raw JSON URL
+[https://raw.githubusercontent.com/ameerzain/languages/main/languages.json](https://raw.githubusercontent.com/ameerzain/languages/main/languages.json
+)
+
+### 📌 Usage Examples
+
+#### JavaScript (Fetch API)
 
 ```js
-import languages from './languages.json';
-
-console.log(languages);
+fetch('https://raw.githubusercontent.com/ameerzain/languages/main/languages.json')
+  .then(response => response.json())
+  .then(data => console.log(data));
 ```
 
-### Python
+#### Python (Fetch API)
 
 ```python
-import json
+import requests
 
-with open('languages.json') as f:
-    languages = json.load(f)
+url = "https://raw.githubusercontent.com/ameerzain/languages/main/languages.json"
+languages = requests.get(url).json()
 
 print(languages)
 ```
+ℹ️ Note:
+This dataset is served via GitHub Raw and is suitable for light to medium usage.
+For high-traffic production environments, consider caching or self-hosting the file.
 
 ### HTML (Dropdown Example)
 
