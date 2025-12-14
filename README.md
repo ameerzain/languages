@@ -1,5 +1,11 @@
 # 🌍 Languages JSON Dataset
 
+![JSON](https://img.shields.io/badge/Format-JSON-blue)
+![Languages](https://img.shields.io/badge/Languages-100%2B-green)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Repo Size](https://img.shields.io/github/repo-size/ameerzain/languages)
+
 A clean, lightweight, and developer-friendly JSON dataset containing a curated list of world languages with their standardized language codes.
 
 This repository is designed to be **simple**, **reusable**, and **framework-agnostic**, making it ideal for applications that need language selection, localization, translation, or internationalization support.
