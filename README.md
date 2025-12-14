@@ -14,13 +14,11 @@ This repository is designed to be **simple**, **reusable**, and **framework-agno
 
 ## 📦 Contents
 
-* `languages.json` – A JSON array of language objects with:
+- `languages.json` – A JSON array of language objects with:
+  - `name` – Human-readable language name
+  - `code` – Standard language code (commonly used in APIs and i18n libraries)
 
-  * `name` – Human‑readable language name
-  * `code` – Standard language code (commonly used in APIs and i18n libraries)
-
-Example:
-
+### Example
 ```json
 {
   "name": "English",
@@ -32,11 +30,11 @@ Example:
 
 ## ✨ Features
 
-* ✅ 100+ commonly used global languages
-* ✅ Clean and consistent JSON structure
-* ✅ Ready to use in frontend & backend projects
-* ✅ Suitable for dropdowns, filters, and localization settings
-* ✅ Easy to extend and maintain
+- ✅ 100+ commonly used global languages
+- ✅ Clean and consistent JSON structure
+- ✅ Ready to use in frontend & backend projects
+- ✅ Suitable for dropdowns, filters, and localization settings
+- ✅ Easy to extend and maintain
 
 ---
 
@@ -44,37 +42,36 @@ Example:
 
 This dataset can be used in:
 
-* 🌐 Internationalization (i18n) & localization
-* 📝 Language selector dropdowns
-* 🤖 Translation & AI applications
-* 📱 Mobile and web apps
-* 🧩 Configuration files
-* 🔌 API integrations (Google Translate, OpenAI, etc.)
+- 🌐 Internationalization (i18n) & localization
+- 📝 Language selector dropdowns
+- 🤖 Translation & AI applications
+- 📱 Mobile and web apps
+- 🧩 Configuration files
+- 🔌 API integrations (Google Translate, OpenAI, etc.)
 
 ---
-
-## 🛠️ How to Use
 
 ## 🌐 Public API / Raw JSON Access
 
 This repository can be used as a **public read-only API** by accessing the raw JSON file hosted on GitHub.
 
 ### 🔗 Raw JSON URL
-[https://raw.githubusercontent.com/ameerzain/languages/main/languages.json](https://raw.githubusercontent.com/ameerzain/languages/main/languages.json
-)
+```
+https://raw.githubusercontent.com/ameerzain/languages/main/languages.json
+```
 
-### 📌 Usage Examples
+---
 
-#### JavaScript (Fetch API)
+## 📌 Usage Examples
 
+### JavaScript (Fetch API)
 ```js
 fetch('https://raw.githubusercontent.com/ameerzain/languages/main/languages.json')
   .then(response => response.json())
   .then(data => console.log(data));
 ```
 
-#### Python (Fetch API)
-
+### Python
 ```python
 import requests
 
@@ -83,18 +80,18 @@ languages = requests.get(url).json()
 
 print(languages)
 ```
-ℹ️ Note:
-This dataset is served via GitHub Raw and is suitable for light to medium usage.
-For high-traffic production environments, consider caching or self-hosting the file.
 
 ### HTML (Dropdown Example)
-
 ```html
 <select>
   <option value="en">English</option>
   <option value="fr">French</option>
 </select>
 ```
+
+> ℹ️ **Note:**  
+> This dataset is served via GitHub Raw and is suitable for light to medium usage.  
+> For high-traffic production environments, consider caching or self-hosting the file.
 
 ---
 
@@ -120,11 +117,10 @@ For high-traffic production environments, consider caching or self-hosting the f
 Contributions are welcome!
 
 You can:
-
-* Add missing languages
-* Improve naming consistency
-* Add region‑specific variants
-* Fix incorrect codes
+- Add missing languages
+- Improve naming consistency
+- Add region-specific variants
+- Fix incorrect codes
 
 Please open a pull request or raise an issue for discussion.
 
@@ -132,7 +128,7 @@ Please open a pull request or raise an issue for discussion.
 
 ## 📄 License
 
-This project is open‑source and available under the **MIT License**.
+This project is open-source and available under the **MIT License**.
 
 You are free to use, modify, and distribute it in personal or commercial projects.
 
@@ -140,8 +136,8 @@ You are free to use, modify, and distribute it in personal or commercial project
 
 ## 👤 Author
 
-**Ameer Zain**
-GitHub: [https://github.com/ameerzain](https://github.com/ameerzain)
+**Ameer Zain**  
+GitHub: https://github.com/ameerzain
 
 If you find this repository useful, consider giving it a ⭐ to support the project.
 
